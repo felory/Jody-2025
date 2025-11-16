@@ -1,8 +1,8 @@
 {
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "types": ["vite/client"]
+    "types": ["vitest/globals", "vite/client"]
   },
-  "include": ["src"],
+  "include": ["src", "src/**/*.test.tsx", "src/**/*.test.ts"],
   "exclude": ["dist"]
 }
