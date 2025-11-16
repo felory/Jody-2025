@@ -1,0 +1,8 @@
+
+
+> @jody/ui@0.0.1 lint /Users/jojody/vscodeWorkSpace/Jody-2025/packages/ui
+> eslint . --ext ts,tsx --reporter=verbose
+
+[31mInvalid option '--reporter' - perhaps you meant '--parser'?
+You're using eslint.config.js, some command line flags are no longer available. Please see https://eslint.org/docs/latest/use/command-line-interface for details.[39m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 2.[39m

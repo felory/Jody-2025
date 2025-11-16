@@ -1,0 +1,4 @@
+{
+  "files": [],
+  "references": [{ "path": "apps/jody-admin" }, { "path": "packages/ui" }]
+}
