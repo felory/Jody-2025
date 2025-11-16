@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/index.ts","../src/Hello.tsx"],"sourcesContent":["export * from './Hello';\n\n","export const Hello = () => {\n  return <div>UI says hi!</div>;\n};\n"],"mappings":";;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;;;ACCS;AADF,IAAM,QAAQ,MAAM;AACzB,SAAO,4CAAC,SAAI,yBAAW;AACzB;","names":[]}
