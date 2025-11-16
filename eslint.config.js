@@ -5,6 +5,8 @@ import react from 'eslint-plugin-react';
 import reactHooks from 'eslint-plugin-react-hooks';
 import reactRefresh from 'eslint-plugin-react-refresh';
 import importPlugin from 'eslint-plugin-import';
+import prettier from 'eslint-config-prettier';
+import eslintPluginPrettier from 'eslint-plugin-prettier';
 
 export default [
   // JS 基础规则
@@ -43,9 +45,12 @@ export default [
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
       import: importPlugin,
+      prettier: eslintPluginPrettier,
     },
 
     rules: {
+      'prettier/prettier': 'error',
+
       'react/react-in-jsx-scope': 'off',
       'react/jsx-uses-react': 'off',
 
@@ -64,4 +69,5 @@ export default [
       ],
     },
   },
+  prettier,
 ];
